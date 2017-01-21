@@ -5,5 +5,5 @@ cd /usr/share/grafana
 --config=${CONF_FILE} \
 --pidfile=${PID_FILE} \
 cfg:default.paths.logs=${LOG_DIR} \
-cfg:default.paths.data=${DATA_DIR} \ 
+cfg:default.paths.data=${DATA_DIR} \
 cfg:default.paths.plugins=${PLUGINS_DIR}
