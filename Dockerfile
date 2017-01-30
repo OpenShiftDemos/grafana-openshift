@@ -4,8 +4,8 @@ MAINTAINER Erik Jacobs <erikmjacobs@gmail.com>
 USER root
 EXPOSE 3000
 
-ENV GRAFANA_VERSION="4.0.2" \
-    GRAFANA_BUILD="1481203731"
+ENV GRAFANA_VERSION="4.1.1" \
+    GRAFANA_BUILD="1484211277"
 
 ADD root /
 RUN yum -y install https://grafanarel.s3.amazonaws.com/builds/grafana-"$GRAFANA_VERSION"-"$GRAFANA_BUILD".x86_64.rpm \
